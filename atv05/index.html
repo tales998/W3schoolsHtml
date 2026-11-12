@@ -1,0 +1,162 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas_linguagens</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+
+    <div class="titulo">
+        <h1>Tabelas comparativas de linguagens e frameworks</h1>
+    </div>
+    <p></p>
+   <table>
+    <tr>
+        <th>tipo</th>
+        <th>nome</th>
+        <th>descrição</th>
+        <th>vantagens</th>
+        <th>desvantagens</th>
+    </tr>
+    <tr>
+        <td>Linguagem de marcação</td>
+        <td>HTML</td>
+        <td>Define a estrutura e o conteúdo das páginas.</td>
+        <td>Fácil de aprender; todos os navegadores o entendem; leve e rápido.</td>
+        <td>Sozinho não cria comportamento (estático); depende de CSS e JavaScript.</td>
+    </tr>
+    <tr>
+        <td>Linguagem de estilo</td>
+        <td>CSS</td>
+        <td>Controla cores, fontes e layout das páginas HTML.</td>
+        <td>Separa conteúdo e aparência; mesmo estilo em várias páginas; layout responsivo.</td>
+        <td>Pode ficar complexo em projetos grandes; não tem lógica de programação.</td>
+    </tr>
+    <tr>
+        <td>Linguagem de programação</td>
+        <td>JavaScript</td>
+        <td>Dá comportamento às páginas e também roda no servidor com Node.js.</td>
+        <td>Roda direto no navegador; mesma linguagem no front e no back; ecossistema enorme.</td>
+        <td>Tipagem fraca e dinâmica; erros só aparecem na execução; código no cliente fica visível.</td>
+    </tr>
+    <tr>
+        <td>Superconjunto do JavaScript</td>
+        <td>TypeScript</td>
+        <td>JavaScript com tipos estáticos, compilado para JavaScript puro.</td>
+        <td>Detecta erros antes de rodar; melhor suporte do editor; ajuda em projetos grandes.</td>
+        <td>Exige compilar para JavaScript; mais código e configuração; é preciso saber JavaScript antes.</td>
+    </tr>
+    <tr>
+        <td>Linguagem de programação</td>
+        <td>Python</td>
+        <td>Linguagem de uso geral, usada em back-end, dados, automação e IA.</td>
+        <td>Sintaxe simples e legível; ecossistema amplo; código aberto e comunidade grande.</td>
+        <td>Mais lento que linguagens compiladas; não roda no navegador; GIL limita o paralelismo.</td>
+    </tr>
+    <tr>
+        <td>Linguagem de programação</td>
+        <td>PHP</td>
+        <td>Linguagem de servidor criada para a web, base do WordPress.</td>
+        <td>Muitos profissionais e material; conecta fácil a bancos de dados; muito usada.</td>
+        <td>Popularidade em queda relativa; segurança depende de como é usado; menos versátil fora da web.</td>
+    </tr>
+</table>
+<p></p>
+<div class="titulo">
+    <h1>Frameworks</h1>
+</div>
+<p></p>
+<table>
+    <tr>
+        <th>framework</th>
+        <th>nome</th>
+        <th>descrição</th>
+        <th>vantagens</th>
+        <th>desvantagens</th>
+    </tr>
+    <tr>
+        <td>Biblioteca</td>
+        <td>React</td>
+        <td>Monta interfaces com componentes reutilizáveis (js).</td>
+        <td>Componentes reutilizáveis; DOM virtual (react otimiza o processo de atualização da interface); comunidade enorme; compatibilidade entre plataformas.</td>
+        <td>Não impõe estrutura; JSX (extensão da sintaxe para o js) exige base em JS; mudanças entre versões.</td>
+    </tr>
+    <tr>
+        <td>Framework</td>
+        <td>Angular</td>
+        <td>Framework completo do Google para aplicações grandes, em TypeScript.</td>
+        <td>Rotas, formulários e HTTP incluídos; TypeScript por padrão; apoio de longo prazo do Google.</td>
+        <td>Curva de aprendizado alta; mais código repetitivo; pacotes maiores.</td>
+    </tr>
+    <tr>
+        <td>Framework</td>
+        <td>Vue.js</td>
+        <td>Framework para interfaces, conhecido pela simplicidade.</td>
+        <td> recursos extras limitados, excesso de flexibilidade, comunidade restrita.</td>
+        <td>Adoção menor que React e Angular; menos recursos de terceiros; flexibilidade pode gerar padrões diferentes.</td>
+    </tr>
+    <tr>
+        <td>Meta-framework (React)</td>
+        <td>Next.js</td>
+        <td>Utiliza linguagem ts/js, ela possui integração robusta com a implantação na borda da rede</td>
+        <td>ecossistema vasto; excelente implementação do vercel; regeneração estática incremental (o que permite dados em tempo quase real com desempenho estático).</td>
+        <td>App Router e componentes de servidor são complexos; melhor desempenho atrelado à Vercel; atualizações frequentes (pode gerar atrito com as versões antigas).</td>
+    </tr>
+    <tr>
+        <td>Meta-framework (Vue)</td>
+        <td>Nuxt</td>
+        <td>back-end construido sobre o Vue.js, abstrai a maioria das configs no gerenciamento de dados assíncronos, middleware e roteamento.</td>
+        <td>SEO melhor para SPAs; gera sites estáticos; divisão automática de código.</td>
+        <td>Comunidade menor que a do Next.js; depuração mais difícil; SSR com muito tráfego pode pesar no servidor.</td>
+    </tr>
+    <tr>
+        <td>Ambiente de execução</td>
+        <td>Node.js</td>
+        <td>Executa JavaScript fora do navegador, no servidor.</td>
+        <td>Rápido e escalável; custo benefício; tratamentos de erros.</td>
+        <td>Programação assíncrona exige cuidado; biblioteca padrão enxuta; ruim para tarefas pesadas de CPU.</td>
+    </tr>
+    <tr>
+        <td>Framework (Python)</td>
+        <td>Django</td>
+        <td>estrutura web Python de alto nível que incentiva o desenvolvimento rápido e o design limpo e pragmático.</td>
+        <td>Muitos recursos prontos; projeto dividido em apps; cache; organização e formulários.</td>
+        <td>Pesado para projetos simples e curva de aprendizado inicial.</td>
+    </tr>
+    <tr>
+        <td>Framework (PHP)</td>
+        <td>Laravel</td>
+        <td>Framework PHP com sintaxe expressiva e muitos recursos prontos.</td>
+        <td>Sintaxe clara; autenticação, filas e migrações prontas; comunidade grande.</td>
+        <td> versões antigas difíceis de atualizar; mais lento que linguagens compiladas e suporte limitado.</td>
+    </tr>
+    <tr>
+        <td>Framework (Java)</td>
+        <td>Spring Boot</td>
+        <td>Simplifica criar aplicações Spring prontas para rodar.</td>
+        <td>Configuração automática; roda como .jar com servidor embutido; grande comunidade.</td>
+        <td>Estilo opinativo, menos controle; curva de aprendizado da autoconfiguração; pacotes grandes.</td>
+    </tr>
+    <tr>
+        <td>Framework (C#)</td>
+        <td>ASP.NET Core</td>
+        <td>Framework da Microsoft para web e APIs, multiplataforma.</td>
+        <td>Multiplataforma e código aberto; bom desempenho; modular e pronto para nuvem.</td>
+        <td>Curva de aprendizado; bibliotecas do .NET Framework antigo podem não funcionar; comunidade menor.</td>
+    </tr>
+    <tr>
+        <td>Framework (Ruby)</td>
+        <td>Ruby on Rails</td>
+        <td>Prioriza convenções e rapidez de desenvolvimento.</td>
+        <td>Produtivo para lançar projetos rápido; código legível; comunidade ativa.</td>
+        <td>Menos flexível; mais lento que outras opções; atualizar versões antigas é difícil.</td>
+    </tr>
+</table>
+
+</body>
+</html>
